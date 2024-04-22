@@ -82,7 +82,7 @@ form button:hover {
 
 table {
     width: 100%;
-    border-collapse: separate;
+    border-collapse: collapse;
     margin-bottom: 20px;
 }
 
@@ -93,6 +93,7 @@ table td {
 }
 
 table th {
+    width: 75%;
     background-color: #577677;
     color: #000000;
     border-radius: 5px 5px 0 0;
